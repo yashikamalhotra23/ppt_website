@@ -1,0 +1,148 @@
+.container
+{
+	margin:auto;
+	max-width: 100%;
+	height:auto;
+	position: relative;
+	background-color: #2e1114;
+}
+.header
+{
+	margin:auto;
+	max-width: 100%;
+	height:100px;
+	background-color: #64485c;
+
+}
+
+.header h1
+{
+	text-align: center;
+	font-style: italic;
+	font-size: 50px;
+	color: white;
+	position: absolute;
+	left:30%;
+	top:-1%;
+
+}
+.nav
+{
+	background-color: #adadad;
+	overflow: hidden;
+}
+ul
+{
+	list-style-type: none;
+}
+li
+{
+	display: inline;
+	font-size: 30px;
+	font-style: bold;
+	margin-left: 10%;
+}
+li a
+{
+	text-decoration: none;
+	color: black;
+}
+li a:hover
+{
+	background-color: lightgrey ;
+}
+form h1
+{
+	color:white;
+	font-size: 45px;
+	font-style: italic;
+	text-align: center;
+}
+form h3
+{
+	color:white;
+	font-size: 30px;
+	text-align: center;
+}
+input[type=text],[type=textarea],[type=radio]
+{
+	font-size:30px;
+	margin-left: 37%;
+}
+input[type=range]
+{
+	font-size: 50px;
+	margin-left: 43%;
+	color: white;
+}
+input[type=radio]
+{
+	font-size: 30px;
+	margin-left: 47%;
+}
+select
+{
+	margin-left: 40%;
+	font-size: 30px;
+}
+input[type=submit]
+{
+	margin:auto;
+	margin-top:5%;
+	margin-left: 45%;
+	font-size: 30px;
+	text-align: center;
+	box-sizing: border-box;
+	border:2px solid black;
+	border-radius:10px;
+	background-color: purple;
+	color: white;
+	cursor:pointer;
+}
+input[type=submit]:hover
+{
+	background-color: yellow;
+	color: black;
+}
+.image1
+{
+	margin-left: 3%;
+	position: absolute;
+	top:18%;
+	margin-bottom: 10%;
+	border:2px dotted violet;
+}
+.image2
+{
+	float:right;
+	position: absolute;
+	top:38%;
+	right:3%;
+	border:2px dotted violet;
+}
+.footer
+{
+	position:relative;
+	background-color: #83677b;
+	height:400px;
+	width: 100%;
+	margin-top: 3%;
+}
+.footer li a 
+{
+	display: block;
+	padding-top: 15px;
+	margin-left: 10%;
+	width: 40%;
+}
+.footer img
+{
+	float: right;
+	position: absolute;
+	right: 3%;
+	top:5%;
+}
+.footer h2
+{
+	text-align: center;
+}
